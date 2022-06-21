@@ -1,0 +1,287 @@
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+li>a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+li>a:hover {
+  color: black;
+  font-weight: 700;
+}
+
+li>a.active {
+  color: black;
+  font-weight: 600;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background: white;
+  height: 85px;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);
+  position: fixed;
+  width: 100%;
+}
+
+.navbar > h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  position: fixed;
+  padding-left: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  position: fixed;
+  padding-left: 40%;
+  gap: 30px;
+}
+
+.isi1 {
+  display: flex;
+  height: auto;
+  padding: 50px 10%;
+}
+
+.isi1 > div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.isi1 h1 {
+  font-size: 60px;
+  width: 360px;
+  margin: 20px 0;
+  font-weight: bolder;
+}
+
+.isi1 p {
+  font-size: 30px;
+  color: gray;
+}
+
+.isi1 > img {
+  width: 50%;
+  object-fit: cover;
+  height: auto;
+  align-self: center;
+  padding-top: 15px;
+}
+
+.utama1 h1 {
+  color: black;
+  font-size: 45px;
+  margin: 10px 0 20px;
+  margin: 10px 0 24px;
+  text-align: center;
+  font-weight: 1.75rem;
+
+}
+
+.utama1 h2 {
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.utama1 p {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 220px 0 220px;
+  text-align: center;
+}
+
+.description-container {
+  height: 280px;
+  margin: 120px 0;
+  padding: 0 10%;
+  padding-left: 200px;
+  display: flex;
+}
+
+.description-container > div {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.description-container h2 {
+  font-size: 2.4rem;
+}
+
+.description-container p {
+  line-height: 1.75rem;
+}
+
+.description-container > div > div {
+  width: 500px;
+}
+
+.description-container > img {
+  width: 40%;
+  object-fit: cover;
+  height: auto;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.description-left-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.font-weight-bold {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.description-container1 {
+  height: 280px;
+  margin: 40px 0;
+  padding: 0 10%;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.description-container1 > div {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description-container1 h2 {
+  font-size: 2.4rem;
+  margin-left: 50px;
+}
+
+.description-container1 p {
+  line-height: 1.75rem;
+  margin-left: 50px;
+}
+
+.description-container1 > div > div {
+  width: 500px;
+}
+
+.description-container1 > img {
+  width: 40%;
+  object-fit: cover;
+  height: auto;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.description-left-footer1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.font-weight-bold1 {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.form {
+  font-size: 2.8rem;
+  font-weight: 700; 
+  text-align: center;
+  margin-top: 100px;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  padding-top: 1px; 
+  width: 60%;
+  margin-left: 18%;
+  height: 55px;
+}
+.form-control:active, .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000; 
+}
+
+.form-pesan {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  padding-top: 1px; 
+  width: 60%;
+  margin-left: 18%;
+  height: 150px;
+}
+
+.form-pesan:active, .form-pesan:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000; 
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 18%;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  height: 80px;
+  margin-top: 90px;
+}
+footer > div {
+  display: flex;
+  gap: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top:150px;
+}
+
+
+

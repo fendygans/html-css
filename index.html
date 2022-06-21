@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+    <nav class="navbar">
+        <h1>SekutuCoding</h1>
+            <div class="nav-menu" id="myDIV">
+                <ul>
+                    <li><a class="li active" href="#halamanrumah">Rumah</a></li>
+                    <li><a href="#halamanabout" class="li">Tentang Kami</a></li>
+                    <li><a href="#halamancontact" class="li">Hubungi Kami</a></li>
+                </ul>
+                <img src="assets/instagram.svg" alt="instagram">
+                <img src="assets/twitter.svg" alt="twitter">
+                <img src="assets/linkedin.svg" alt="linkedin">
+            </div>
+    </nav>
+    <section class="isi1" id="halamanrumah">
+        <div>
+            <div>
+                <h1>Ngoding dengan lihai
+                </h1>
+                <p>coding adalah sekutu kita?</p>
+            </div>
+        </div>
+        <img src="assets/4827607.jpg" alt="hero">
+    </section>
+    <section class="utama1" id="halamanabout">
+        <div>
+            <h2>CODING SEKUTU BUKAN MUSUH KITA.</h2>
+            <h1>KENAPA CODING PENTING?</h1>
+            <p>Penggagas <i>Coding Smart School</i>, <b>Mercy Sihombing</b>, mengatakan saat ini Indonesia masih kekurangan programmer handal yang selalu mengikuti perkembangan teknologi digital, padahal peluang kerjanya terbuka sangat lebar. Kemampuan coding atau menciptakan program komputer kini menjadi skill yang paling dicari dengan gaji yang menggiurkan. Keahlian tersebut juga bisa digunakan untuk mengembangkan perusahaan teknologi sendiri, misalnya membuat startup digital.</p>
+        </div>
+    </section>
+    <section class="description-container">
+        <div>
+            <div>
+                <h2>Keahlian Berkembang</h2>
+                <p>Seorang programmer dituntut untuk mempunyai kemauan untuk belajar hal yang baru,
+                   oleh karena itu menjadi programmer harus mempunyai fundamental....</p>
+            </div>
+            <div class="description-left-footer">
+                <p class="font-weight-bold">Baca selengkapnya →</p>
+            </div>
+        </div>
+        <img src="assets/card1.png" alt="desc">
+    </section>
+    <section class="description-container1">
+        <div>
+            <div>
+                <h2>Pemecah Masalah</h2>
+                <p>Ketika Anda bekerja sebagai programmer maka akan dituntut untuk menyelesaikan permasalahan besar untuk menemukan solusi dalam bentuk kode...</p>
+            </div>
+            <div class="description-left-footer1">
+                <p class="font-weight-bold1">Baca selengkapnya →</p>
+            </div>
+        </div>
+        <img src="assets/card2.png" alt="desc">
+    </section>
+    <section>
+        <h2 class="form" id="halamancontact">Selengkapnya. <br>Hubungi kami.</h2>
+        <form>
+            <div>
+                <input type="text" class="form-control" name="fname" id="fname" placeholder="Nama">                 
+                <input type="text" class="form-control" name="lname" id="lname" placeholder="Alamat">                
+                <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+            </div>
+            <div>
+                <textarea class="form-pesan" name="message" id="message" placeholder="Tuliskan pesan atau pertanyaan"></textarea>
+            </div>               
+        </form>              
+        <input type="submit" value="Kirim">
+    </section>
+    <section>
+    <footer>
+        <p><b>FendySetyawan</b> 2022 copyright all rights reserved</p>
+        <div>
+            <img src="assets/instagram.svg" alt="instagram">
+            <img src="assets/twitter.svg" alt="twitter">
+            <img src="assets/linkedin.svg" alt="linkedin">
+        </div>
+    </footer>
+    </section>
+
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("li");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+
+        
+        </script>
+
+    </body>
+</html>
